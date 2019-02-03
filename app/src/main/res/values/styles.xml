@@ -1,11 +1,7 @@
 <resources>
 
-    <style name="General" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Esto quita el Fullscreen, mostrando el Toolbar. Los que tengan ActionBar van a ser shape en drawables -->
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">true</item>
-        <item name="android:windowFullscreen">false</item>
-        <item name="android:windowContentOverlay">@null</item>
+    <style name="General" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorHeader</item>
         <item name="colorPrimaryDark">@color/colorToolbar</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
@@ -16,8 +12,7 @@
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="colorPrimaryDark">@color/colorToolbar</item>
-        <item name="colorAccent">@color/colorAccent</item>
+
     </style>
 
     <style name="LogoText">
@@ -33,5 +28,15 @@
         <item name="android:textSize">21sp</item>
         <item name="android:lineSpacingMultiplier">0.38</item>
     </style>
+
+    <style name="ButtonLogin">
+        <item name="android:radius">10dp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">#323232</item>
+    </style>
+
+    <style name="General.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="General.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
