@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppTDMobile</string>
+    <string name="tv_logo_text">TD</string>
+    <string name="tv_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="tv_registrarse">REGISTRARSE</string>
+    <string name="tv_ir_al_menu">IR AL MENÚ</string>
+</resources>
