@@ -6,33 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <TextView
         android:id="@+id/tv_logo_text"
         style="@style/LogoText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="75dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="100dp"
         android:width="134.5dp"
         android:height="120dp"
         android:background="@drawable/logo_background"
         android:gravity="center"
-
         android:text="@string/tv_logo_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
-
 
     <TextView
         android:id="@+id/tv_registrarse"
         style="@style/LabelText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="65dp"
         android:width="223.5dp"
         android:height="30.25dp"
         android:text="@string/tv_registrarse"
@@ -40,32 +35,30 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_logo_text" />
 
     <TextView
-        style="@style/LabelText"
         android:id="@+id/tv_iniciar_sesion"
+        style="@style/LabelText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="20dp"
         android:width="223.5dp"
         android:height="30.25dp"
+        android:onClick="goToLogin"
         android:text="@string/tv_iniciar_sesion"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_registrarse" />
 
     <TextView
-        style="@style/LabelText"
         android:id="@+id/tv_ir_al_menu"
+        style="@style/LabelText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
         android:width="223.5dp"
         android:height="30.25dp"
         android:text="@string/tv_ir_al_menu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_iniciar_sesion" />
-
-
-
 
 </android.support.constraint.ConstraintLayout>

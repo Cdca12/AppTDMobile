@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">AppTDMobile</string>
+    <string name="app_name">The Dresser</string>
+    <!-- Home -->
     <string name="tv_logo_text">TD</string>
     <string name="tv_iniciar_sesion">INICIAR SESIÓN</string>
     <string name="tv_registrarse">REGISTRARSE</string>
     <string name="tv_ir_al_menu">IR AL MENÚ</string>
+
+    <!-- Login -->
+    <string name="label_login">Bienvenidos a The Dresser</string>
+
 </resources>
